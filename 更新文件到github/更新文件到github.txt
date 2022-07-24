@@ -1,0 +1,22 @@
+更新文件到github
+
+    输入指令：git init
+
+    输入指令：git add 文件名称或者 git add.
+
+    输入指令：git commit -m “这是注释内容”
+
+    将本地的仓库关联到github上
+    输入指令： git remote add origin https://github.com/can19960229/my_note.git
+
+    通过如下命令进行代码合并【注：pull=fetch+merge]
+    执行成功后，发现文件夹已经把github之前的代码克隆下来了
+
+    输入指令： git pull --rebase origin master
+
+    再执行语句把代码上传到github
+
+    输入指令： git push -u origin master
+————————————————
+版权声明：本文为CSDN博主「yours_棒棒糖」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_35655602/article/details/106872232
